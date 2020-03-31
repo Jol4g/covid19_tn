@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+//import DMap from './Map/Map'
+import Header from './Header/Header'
+import Stat from './Stat/Stat'
+import Footer from './Footer/Footer'
+import Mapbox from './Map/MAPbox'
+class App extends Component {
+  render() {
+    return (<>
+   <Header/>
+   <Mapbox/> 
+   <Stat/>
+   <Footer/>
+   </>
+    )}
 }
 
 export default App;
