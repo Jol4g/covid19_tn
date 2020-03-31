@@ -6,7 +6,7 @@ class Foooter extends React.Component{
         return (
           <div className="f">
           <Footer className="f1" size="mega" >
-          <FooterSection className="f2" type="bottom" logo="JOL4G">
+          <FooterSection className="f2" type="bottom" logo="&copy; Fedi Sarray">
               <FooterLinkList>
                   <a href="/">Help</a>
                   <a href="/">Privacy & Terms</a>

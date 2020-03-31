@@ -5,7 +5,7 @@ import statesData from './tn.js'
 class Mapbox extends Component{
   componentDidMount(){
 var mapboxAccessToken = 'pk.eyJ1Ijoiam9sNGciLCJhIjoiY2s4ZjdndDNxMDEzbTNtcGIydGo2MXlqbiJ9.8Y41f-0P6WXhzKxzWWwIMA'
-var map = L.map('map').setView([33, 10], 6);
+var map = L.map('map').setView([34.5, 10], 6);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
     id: 'mapbox/light-v9',
@@ -24,9 +24,9 @@ var info = L.control();
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>TN Population Infected</h4>' +  (props ?
-			'<b>' + props.gouv_ar + '</b><br />' + props.density + ' people <sup>2</sup>'
-			: 'Hover over a state');
+		this._div.innerHTML = '<h4>حالات العدوى</h4>' +  (props ?
+			'<h6><b>' + props.gouv_ar + '</b></h6>'  + props.density+ ' شخص'
+			: 'ضع السهم فوق الولاية');
 	};
 
 	info.addTo(map);
@@ -64,7 +64,7 @@ var info = L.control();
 			weight: 5,
 			color: '#666',
 			dashArray: '',
-			fillOpacity: 0.7
+			fillOpacity: 0.8
 		});
 
 		if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
