@@ -21,3 +21,13 @@ font-family: 'Almarai', sans-serif;
     position: absolute;
     top:30%; left:75%;
 }
+#social{
+    position: absolute ;
+    display: block;
+    z-index: 60;
+    left: 80%;
+    top: 92%;
+}
+#social svg{
+    margin: 5px;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Card , CardText, CardActions, Button, CardTitle} from 'react-mdl'
+import {SocialMediaIconsReact} from 'social-media-icons-react';
 class Stat extends Component{
     render(){
         return (
@@ -15,7 +16,10 @@ Les Coronavirus sont une grande famille de virus, qui provoquent des maladies...
     </CardActions>
 </Card>
 <div id="social">
-
+<SocialMediaIconsReact icon="twitter" url="https://twitter.com/fedi_sarray"/>
+<SocialMediaIconsReact icon="linkedin" url="https://tn.linkedin.com/in/fedisarray"/>
+<SocialMediaIconsReact icon="facebook" url="https://facebook.com/jol4g"/>
+<SocialMediaIconsReact icon="github" url="https://github.com/Jol4g/"/>
 </div>
 </div>
         );
