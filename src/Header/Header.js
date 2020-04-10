@@ -10,7 +10,7 @@ class DHeader extends Component{
                 <a href="http://www.santetunisie.rns.tn/">وزارة الصحة</a>
                 <a href="http://www.onmne.tn/">اﻟﻤﺮﺻﺪ ﺍﻟﻮﻃﻨﻲ ﻟﻸﻣﺮﺍﺽ ﺍﻟﺠﺪﻳﺪﺓ ﻭﺍﻟﻤﺴﺘﺠﺪﺓ</a>
                 <a href="https://www.who.int/ar">منظمة الصحة العالمية</a>
-                <a href="https://ecstatic-davinci-a52b99.netlify.com/">Developer</a>
+                <a href="https://fedisarray.netlify.com/">Developer</a>
             </Navigation>
         </Header>
        

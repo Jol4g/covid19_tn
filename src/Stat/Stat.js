@@ -5,6 +5,7 @@ class Stat extends Component{
     render(){
         return (
 <div className="Stat">
+<div className="date">Last Update: 09/04/2020</div>
 <Card id="card1" shadow={0} style={{width: '300px', height: '320px', margin: 'auto'}}>
         <CardTitle expand style={{color: '#fff', background: 'url(./card1.jpg) bottom right 100% no-repeat #46B6AC'}}>COVID-19</CardTitle>
     <CardText>
