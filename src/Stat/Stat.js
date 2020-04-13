@@ -9,7 +9,7 @@ class Stat extends Component{
 <SocialMediaIconsReact icon="linkedin" url="https://tn.linkedin.com/in/fedisarray"/>
 <SocialMediaIconsReact icon="facebook" url="https://facebook.com/jol4g"/>
 <SocialMediaIconsReact icon="github" url="https://github.com/Jol4g/"/>
-<div className="date">Last Update: 11/04/2020</div>
+<div className="date"><span>Last Update: 11/04/2020</span><span id="name">© Fedi Sarray</span></div>
 </div>
 </div>
         );
