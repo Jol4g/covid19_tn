@@ -1,9 +1,6 @@
-.f{
+.f a{
 width: 100%;
-position: fixed;
 bottom: 0%;
-height: 10%;
-}
-.f1{
-    padding-left: 20px ;
+padding: 3px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

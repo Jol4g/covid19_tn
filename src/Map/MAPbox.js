@@ -125,6 +125,14 @@ var info = L.control();
 
     legend.addTo(map);}
     render(){
-        return(<div id="map"></div>)
+        return(<div className="card" ><div id="map"></div>
+	<div class="w3-card-4" >
+    <img src="card1.jpg" alt="Alps" />
+    <div class=" w3-center">
+      <p>CORONAVIRUS COVID-19 Les Coronavirus sont une grande famille de virus, qui provoquent des maladies...<br/> <sp>Tout savoir sur le Coronavirus</sp> <a href="http://coronavirus.rns.tn/">Coronavirus.rns.tn</a></p>
+    </div>
+  </div>
+
+		</div>)
     }}
     export default Mapbox

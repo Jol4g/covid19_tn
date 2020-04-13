@@ -9,10 +9,10 @@ import Mapbox from './Map/MAPbox'
 class App extends Component {
   render() {
     return (<>
-  <div> <DHeader/></div>
-  <div className="Map"> <Mapbox/> </div>
-  <div ><Stat/></div>
-  <div className="Footer"><Foooter/></div>
+  <div className="header"> <DHeader/></div>
+  <div className=""><div className="Map col "> <Mapbox/> </div>
+  <div className="content col"><Stat/></div></div>
+  <div className="footer"><Foooter/></div>
    </>
     )}
 }
