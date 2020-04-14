@@ -34,22 +34,21 @@ var info = L.control();
 
 	// get color depending on population density value
 	function getColor(d) {
-        return  d > 100 ? '#800026' :
-                d > 60  ? '#800000' :
-				d > 50  ? '#BD0026' :
-				d > 40  ? '#E31A1C' :
-                d > 30  ? '#FC4E2A' :                
-                d > 20  ? '#FC6E3A' :
-				d > 10  ? '#FD8D3C' :
+        return  d > 100 ? '#700026' :
+				d > 70  ? '#990040' :
+				d > 55  ? '#e80043' :
+				d > 35  ? '#FB4f36' :              
+                d > 20  ? '#FC7E4A' :
+				d > 10  ? '#FCA110' :
 				d > 5   ? '#FEB24C' :
-				d > 0   ? '#FED970' :
-							'#FFEDBF';
+				d > 0   ? '#FED975' :
+							'#77dd55';
 	}
 
 	function style(feature) {
 		return {
 			weight: 2,
-			opacity: 1,
+			opacity: 2,
 			color: 'white',
 			dashArray: '3',
 			fillOpacity: 0.7,
@@ -106,7 +105,7 @@ var info = L.control();
 	legend.onAdd = function (map) {
 
 		var div = L.DomUtil.create('div', 'info legend'),
-			grades = [0, 5, 10, 20, 50, 60, 100],
+			grades = [1, 5, 10, 20, 35, 55, 70, 100],
 			labels = [],
 			from, to;
 
